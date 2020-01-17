@@ -13,12 +13,5 @@
         "psr-4": {
             "tanlex\\mypackage\\": "src/"
         }
-    },
-    "repositories": {
-        "packagist": {
-            "type": "composer",
-            "url": "https://packagist.org"
-        }
-    },
-    "minimum-stability": "dev"
+    }
 }
