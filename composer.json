@@ -1,0 +1,16 @@
+{
+    "name": "tanlex/mypackage",
+    "description": "tanlex/mypackage",
+    "authors": [
+        {
+            "name": "tanlex",
+            "email": "523249435@qq.com"
+        }
+    ],
+    "require": {},
+    "autoload":{
+        "psr-4": {
+            "tanlex\\mypackage\\": "src/"
+        }
+    }
+}
