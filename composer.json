@@ -8,12 +8,16 @@
             "email": "523249435@qq.com"
         }
     ],
-    "require": {
-        "tanlex/mypackage": "dev-master"
-    },
+    "require": {},
     "autoload":{
         "psr-4": {
             "tanlex\\mypackage\\": "src/"
+        }
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.org"
         }
     }
 }
