@@ -1,13 +1,16 @@
 {
     "name": "tanlex/mypackage",
     "description": "tanlex/mypackage",
+    "type": "library",
     "authors": [
         {
             "name": "tanlex",
             "email": "523249435@qq.com"
         }
     ],
-    "require": {},
+    "require": {
+        "tanlex/mypackage": "dev-master"
+    },
     "autoload":{
         "psr-4": {
             "tanlex\\mypackage\\": "src/"
